@@ -3,7 +3,7 @@ package buildpackapplifecycle_test
 import (
 	"path/filepath"
 
-	"code.cloudfoundry.org/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

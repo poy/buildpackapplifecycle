@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/shell"
-	"code.cloudfoundry.org/buildpackapplifecycle/shell/exec"
+	"github.com/poy/buildpackapplifecycle/shell"
+	"github.com/poy/buildpackapplifecycle/shell/exec"
 	"code.cloudfoundry.org/goshims/osshim"
 )
 

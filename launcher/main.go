@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/env"
+	"github.com/poy/buildpackapplifecycle/env"
 	"code.cloudfoundry.org/goshims/osshim"
 	yaml "gopkg.in/yaml.v2"
 )

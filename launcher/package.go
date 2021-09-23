@@ -1,1 +1,1 @@
-package main // import "code.cloudfoundry.org/buildpackapplifecycle/launcher"
+package main // import "github.com/poy/buildpackapplifecycle/launcher"

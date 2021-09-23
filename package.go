@@ -1,1 +1,1 @@
-package buildpackapplifecycle // import "code.cloudfoundry.org/buildpackapplifecycle"
+package buildpackapplifecycle // import "github.com/poy/buildpackapplifecycle"

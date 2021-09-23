@@ -1,1 +1,1 @@
-package buildpackrunner // import "code.cloudfoundry.org/buildpackapplifecycle/buildpackrunner"
+package buildpackrunner // import "github.com/poy/buildpackapplifecycle/buildpackrunner"

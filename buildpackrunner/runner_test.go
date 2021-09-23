@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"code.cloudfoundry.org/buildpackapplifecycle"
-	"code.cloudfoundry.org/buildpackapplifecycle/buildpackrunner"
+	"github.com/poy/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle/buildpackrunner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"

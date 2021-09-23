@@ -11,7 +11,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/launcher/profile"
+	"github.com/poy/buildpackapplifecycle/launcher/profile"
 
 	"golang.org/x/sys/windows"
 )

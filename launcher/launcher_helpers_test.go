@@ -8,7 +8,7 @@ import (
 )
 
 func buildLauncher() string {
-	launcherPath, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/launcher", "-race")
+	launcherPath, err := gexec.Build("github.com/poy/buildpackapplifecycle/launcher", "-race")
 	Expect(err).NotTo(HaveOccurred())
 
 	return launcherPath

@@ -18,8 +18,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"code.cloudfoundry.org/buildpackapplifecycle"
-	"code.cloudfoundry.org/buildpackapplifecycle/buildpackrunner/resources"
+	"github.com/poy/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle/buildpackrunner/resources"
 	"code.cloudfoundry.org/bytefmt"
 )
 

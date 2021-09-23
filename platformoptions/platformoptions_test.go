@@ -1,7 +1,7 @@
 package platformoptions_test
 
 import (
-	"code.cloudfoundry.org/buildpackapplifecycle/platformoptions"
+	"github.com/poy/buildpackapplifecycle/platformoptions"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

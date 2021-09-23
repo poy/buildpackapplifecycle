@@ -28,12 +28,12 @@ func TestBuildpackLifecycleLauncher(t *testing.T) {
 }
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	helloPath, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/launcher/fixtures/hello")
+	helloPath, err := gexec.Build("github.com/poy/buildpackapplifecycle/launcher/fixtures/hello")
 	Expect(err).NotTo(HaveOccurred())
 
 	launcherPath := buildLauncher()
 
-	getenvPath, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/getenv")
+	getenvPath, err := gexec.Build("github.com/poy/buildpackapplifecycle/getenv")
 	Expect(err).NotTo(HaveOccurred())
 
 	return []byte(helloPath + "^" + launcherPath + "^" + getenvPath)

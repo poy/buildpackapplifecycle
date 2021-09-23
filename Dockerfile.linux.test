@@ -12,9 +12,9 @@ RUN /bin/bash -c '\
 ENV PATH $GOBIN:/usr/local/go/bin:$PATH
 RUN go get github.com/onsi/ginkgo/ginkgo && go get github.com/onsi/gomega
 
-ADD . /go/src/code.cloudfoundry.org/buildpackapplifecycle/
+ADD . /go/src/github.com/poy/buildpackapplifecycle/
 
-WORKDIR /go/src/code.cloudfoundry.org/buildpackapplifecycle/
+WORKDIR /go/src/github.com/poy/buildpackapplifecycle/
 RUN GO111MODULE=off go get -t ./...
 
 CMD ginkgo -r -p

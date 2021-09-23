@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/launcher/profile"
+	"github.com/poy/buildpackapplifecycle/launcher/profile"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

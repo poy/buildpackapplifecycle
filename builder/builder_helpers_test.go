@@ -8,7 +8,7 @@ import (
 )
 
 func buildBuilder() string {
-	builder, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/builder")
+	builder, err := gexec.Build("github.com/poy/buildpackapplifecycle/builder")
 	Expect(err).NotTo(HaveOccurred())
 
 	return builder

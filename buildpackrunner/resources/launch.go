@@ -1,7 +1,7 @@
 package resources
 
 import (
-	"code.cloudfoundry.org/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle"
 )
 
 type LaunchData struct {

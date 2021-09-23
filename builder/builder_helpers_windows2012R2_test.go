@@ -14,7 +14,7 @@ import (
 )
 
 func buildBuilder() string {
-	builder, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/builder", "-tags=windows2012R2")
+	builder, err := gexec.Build("github.com/poy/buildpackapplifecycle/builder", "-tags=windows2012R2")
 	Expect(err).NotTo(HaveOccurred())
 
 	return builder

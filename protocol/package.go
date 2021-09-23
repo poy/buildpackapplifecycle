@@ -1,1 +1,1 @@
-package protocol // import "code.cloudfoundry.org/buildpackapplifecycle/protocol"
+package protocol // import "github.com/poy/buildpackapplifecycle/protocol"

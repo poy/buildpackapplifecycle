@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/buildpackapplifecycle"
-	"code.cloudfoundry.org/buildpackapplifecycle/buildpackrunner"
-	"code.cloudfoundry.org/buildpackapplifecycle/credhub"
-	"code.cloudfoundry.org/buildpackapplifecycle/databaseuri"
-	"code.cloudfoundry.org/buildpackapplifecycle/platformoptions"
+	"github.com/poy/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle/buildpackrunner"
+	"github.com/poy/buildpackapplifecycle/credhub"
+	"github.com/poy/buildpackapplifecycle/databaseuri"
+	"github.com/poy/buildpackapplifecycle/platformoptions"
 	"code.cloudfoundry.org/goshims/osshim"
 )
 

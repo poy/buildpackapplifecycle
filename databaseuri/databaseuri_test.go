@@ -1,7 +1,7 @@
 package databaseuri_test
 
 import (
-	"code.cloudfoundry.org/buildpackapplifecycle/databaseuri"
+	"github.com/poy/buildpackapplifecycle/databaseuri"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

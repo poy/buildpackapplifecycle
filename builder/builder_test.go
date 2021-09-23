@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/buildpackapplifecycle"
-	"code.cloudfoundry.org/buildpackapplifecycle/containerpath"
+	"github.com/poy/buildpackapplifecycle"
+	"github.com/poy/buildpackapplifecycle/containerpath"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

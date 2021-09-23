@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/containerpath"
+	"github.com/poy/buildpackapplifecycle/containerpath"
 	api "code.cloudfoundry.org/credhub-cli/credhub"
 	"code.cloudfoundry.org/goshims/osshim"
 )

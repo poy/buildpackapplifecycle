@@ -1,6 +1,6 @@
 # buildpackapplifecycle
 
-**Note**: This repository should be imported as `code.cloudfoundry.org/buildpackapplifecycle`.
+**Note**: This repository should be imported as `github.com/poy/buildpackapplifecycle`.
 
 The buildpack lifecycle implements the traditional Cloud Foundry deployment
 strategy.

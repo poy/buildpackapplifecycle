@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/shell"
+	"github.com/poy/buildpackapplifecycle/shell"
 	"code.cloudfoundry.org/goshims/osshim/os_fake"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -37,7 +37,7 @@ var _ = Describe("Shell", func() {
 		var homeDir string
 
 		BeforeEach(func() {
-			shellPath, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/shell/shell", "-race")
+			shellPath, err := gexec.Build("github.com/poy/buildpackapplifecycle/shell/shell", "-race")
 			Expect(err).NotTo(HaveOccurred())
 
 			homeDir, err = ioutil.TempDir("", "vcap")

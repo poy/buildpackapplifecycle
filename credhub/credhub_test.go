@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"code.cloudfoundry.org/buildpackapplifecycle/containerpath"
-	"code.cloudfoundry.org/buildpackapplifecycle/credhub"
+	"github.com/poy/buildpackapplifecycle/containerpath"
+	"github.com/poy/buildpackapplifecycle/credhub"
 	"code.cloudfoundry.org/goshims/osshim/os_fake"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -17,7 +17,7 @@ func TestProfile(t *testing.T) {
 }
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	getenvPath, err := gexec.Build("code.cloudfoundry.org/buildpackapplifecycle/getenv")
+	getenvPath, err := gexec.Build("github.com/poy/buildpackapplifecycle/getenv")
 	Expect(err).NotTo(HaveOccurred())
 	return []byte(getenvPath)
 }, func(getenvExe []byte) {
